@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS users(
+	name TEXT PRIMARY KEY NOT NULL,
+	password TEXT NOT NULL,
+	cid TEXT NOT NULL,
+   model TEXT NOT NULL,
+   ip TEXT NOT NULL
+);
