@@ -1,0 +1,19 @@
+name: Users
+main: Bestaford\Users
+api: 3.0.1
+version: 1.1
+author: https://talk.24serv.pro/u/bestaford
+commands:
+    logout:
+        description: Выход из аккаунта
+        permission: users.logout
+    change:
+        description: Смена пароля
+        usage: /change <старый пароль> <новый пароль>
+        permission: users.change
+        aliases: [cp, cpwd, changepass, changepassword]
+permissions:
+    users.logout:
+        default: true
+    users.change:
+        default: true
